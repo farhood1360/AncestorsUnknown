@@ -1,4 +1,10 @@
-<?php
+<?php # Script 1.5- config.php
+
+/* Name: Commerce Web Portal/ Config Page
+*  Author: Farhood Rashidi
+*  Date: 07/29/2014
+*  This page defines and gets the user's username, password, database, and localhost.
+*/
 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'username');
