@@ -12,14 +12,13 @@
 /* Class Checkout
 *  The class contains five attributes:
 *    - private $first_name
-*	 - private $last_name
-*	 - private $credit
-*	 - private $expiration
-*	 - private $photo
-*	The class contains two methods:
-*	- __Constructor
+*    - private $last_name
+*    - private $credit
+*    - private $expiration
+*    - private $photo
+* The class contains two methods:
+*   - __Constructor
 *   - set_form()
-*  
 */
 	
 class Checkout
