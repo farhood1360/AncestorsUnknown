@@ -3,7 +3,7 @@
 /* Name: Commerce Web Portal/ Log In Page
 *  Author: Farhood Rashidi
 *  Date: 07/29/2014
-*  This page defines the user object.
+*  This page defines the user object and then gets the username and password.
 */
 
 session_start();
