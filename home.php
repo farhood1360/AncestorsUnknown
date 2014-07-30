@@ -8,7 +8,7 @@
 
 session_start();
 
-//include_once 'include/functions.php';
+include_once 'include/functions.php';
 $user = new User();
 $uid = $_SESSION['uid'];
 
