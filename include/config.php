@@ -15,4 +15,3 @@ class DB_Class
 		or die('Database error -> ' . mysql_error());
 	}
 }
-?>
