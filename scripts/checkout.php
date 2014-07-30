@@ -12,7 +12,7 @@
 /* Class Checkout
 *  The class contains five attributes:
 *    - private $first_name
-*	 - private $Last_name
+*	 - private $last_name
 *	 - private $credit
 *	 - private $expiration
 *	 - private $photo
