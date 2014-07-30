@@ -89,7 +89,7 @@ class User
     session_destroy();
   }
 
-}// End of Function class.
+}// End of User class.
 	
 # ********** END OF CLASSES ******* #
 # ********************************* #
