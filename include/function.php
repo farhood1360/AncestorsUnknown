@@ -84,7 +84,7 @@ class User
     session_destroy();
   }
 
-}// End of Checkout class.
+}// End of Function class.
 	
 # ********** END OF CLASSES ******* #
 # ********************************* #
