@@ -15,11 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	if ($login) 
 	{
 		// Login Success
-		header("location:login.php");
+		header("login.php");
 	} 
 	else 
 	{
 		// Login Failed
-		$msg= 'Username / password wrong';
+		$messag= 'Username or password is not correct!';
 	}
 }
