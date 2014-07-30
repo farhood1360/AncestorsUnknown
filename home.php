@@ -1,19 +1,20 @@
 <?php
 
 session_start();
+
 //include_once 'include/functions.php';
 $user = new User();
 $uid = $_SESSION['uid'];
 
 if (!$user->get_session())
 {
-	header("location:login.php");
+	header("login.php");
 }
 
 if ($_GET['q'] == 'logout') 
 {
 	$user->user_logout();
-	header("location:login.php");
+	header("login.php");
 }
 
 ?>
