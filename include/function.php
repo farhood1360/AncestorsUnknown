@@ -12,8 +12,8 @@
 /* Class User
 *  The class contains one attributes:
 *    - private $db
-*  The class contains three methods:
-*   - __Constructor()
+*  The class contains six methods:
+*   - __Constructor
 *   - register_user()
 *   - check_login()
 *   - get_fullname()
