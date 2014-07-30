@@ -15,11 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	if ($register) 
 	{
 		// Registration Success
-		echo 'Registration successful <a href="login.php">Click here</a> to login';
+		echo 'Registration successful.<br><a href="login.php">Click here</a> to login';
 	} 
 	else 
 	{
 		// Registration Failed
-		echo 'Registration failed. Email or Username already exits please try again';
+		echo 'Registration failed. Email or Username already exits. please try again!';
 	}
 }
