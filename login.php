@@ -1,4 +1,10 @@
-<?php
+<?php # Script 1.4- login.php
+
+/* Name: Commerce Web Portal/ Log In Page
+*  Author: Farhood Rashidi
+*  Date: 07/29/2014
+*  This page defines the user object.
+*/
 
 session_start();
 include_once 'include/functions.php';
