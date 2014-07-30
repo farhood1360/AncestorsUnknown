@@ -12,8 +12,8 @@
 /* Class User
 *  The class contains one attributes:
 *    - private $db
-*	The class contains three methods:
-*	  - __Constructor()
+*  The class contains three methods:
+*   - __Constructor()
 *   - register_user()
 *   - check_login()
 *   - get_fullname()
@@ -84,4 +84,7 @@ class User
     session_destroy();
   }
 
-}
+}// End of Checkout class.
+	
+# ********** END OF CLASSES ******* #
+# ********************************* #
