@@ -1,9 +1,31 @@
-<?php
+<?php # Script 1.3- function.php
+
+/* Name: Commerce Web Portal/ Function Page
+*  Author: Farhood Rashidi
+*  Date: 07/29/2014
+*  This page defines the user class.
+*/
+	
+# ************************** #
+# ********** CLASSES ******* #
+	
+/* Class User
+*  The class contains one attributes:
+*    - private $db
+*	The class contains three methods:
+*	  - __Constructor()
+*   - register_user()
+*   - check_login()
+*   - get_fullname()
+*   - get_session() 
+*   - user_logout() 
+*/
 
 include_once 'config.php';
 class User
 {
-//Database connect 
+  private $db;
+  //Database connect 
   public function __construct() 
   {
     $db = new DB_Class();
