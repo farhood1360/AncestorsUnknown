@@ -29,7 +29,7 @@ class Checkout
 		private $last_name = "";
 		private $credit = "";
 		private $expiration = "";
-		private $photo = "";
+		private $photo = NULL;
 		
 		// Constructor:
 		function __construct($fname, $lname, $c, $e, $p)
