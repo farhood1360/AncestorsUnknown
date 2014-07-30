@@ -1,4 +1,10 @@
-<?php
+<?php # Script 1.2- home.php
+
+/* Name: Commerce Web Portal/ Home Page
+*  Author: Farhood Rashidi
+*  Date: 07/29/2014
+*  This page defines user and creates the login and logout sessions. 
+*/
 
 session_start();
 
