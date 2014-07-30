@@ -1,11 +1,12 @@
 <?php
+
 session_start();
 include_once 'include/functions.php';
 $user = new User();
 
 if ($user->get_session())
 {
-	header("location:home.php");
+	header("home.php");
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
@@ -22,12 +23,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 		$msg= 'Username / password wrong';
 	}
 }
-?>
-//HTML Code
-<form method="POST" action="" name="login">
-Email or Username
-<input type="text" name="emailusername"/>
-Password
-<input type="password" name="password"/>
-<input type="submit" value="Login"/>
-</form>
