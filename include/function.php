@@ -25,6 +25,7 @@ include_once 'config.php';
 class User
 {
   private $db;
+
   //Database connect 
   public function __construct() 
   {
@@ -47,6 +48,7 @@ class User
       return FALSE;
     }
   }
+
   // Login process
   public function check_login($emailusername, $password) 
   {
@@ -65,18 +67,21 @@ class User
       return FALSE;
     }
   }
-    // Getting name
+
+   // Getting name
   public function get_fullname($uid) 
   {
     $result = mysql_query("SELECT name FROM users WHERE uid = $uid");
     $user_data = mysql_fetch_array($result);
     echo $user_data['name'];
   }
+
   // Getting session 
   public function get_session() 
   {
     return $_SESSION['login'];
   }
+
   // Logout 
   public function user_logout() 
   {
