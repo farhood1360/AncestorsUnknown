@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Check Out</title>
+    </head>
+    
+    <body>
+      <h1>Check Out Form</h1>
+      <h2>Enter your personal information to start check out processing.</h2>
+      <form action="commerce.php" method="post" enctype="multipart/form-data">
+         <p>First Name : <input name="first_name" type="text" size="10" maxlength="20" required autofocus/><br /></p>
+         <p>Last Name : <input name="last_name" type="text" size="10" maxlength="20" required/><br /></p>
+         <p>Credit Card Number : <input name="credit" type="text" size="10" maxlength="15" required/><br /></p>
+         <p>Exprition Date : <input name="expiration" type="text" size="4" maxlength="5" required/><br /></p>
+         <p>Personal Photo : <input name="photo" type="file" size="4" required/><br /></p>
+         <p>
+             <input name="info" type="submit" value="Submit" />
+             <input name="reset" type="reset" value="Reset" /><br />
+         </p>
+         <p><?php echo $message; ?></p>
+     </form>
+    </body>
+</html>
+
