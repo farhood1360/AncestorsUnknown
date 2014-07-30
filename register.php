@@ -1,4 +1,10 @@
-<?php
+<?php # Script 1.5- register.php
+
+/* Name: Commerce Web Portal/ Register Page
+*  Author: Farhood Rashidi
+*  Date: 07/29/2014
+*  This page defines the user object and gets the user's first name, username, password, and email and then displays the confirmation message or error message. 
+*/
 
 include_once 'include/functions.php';
 $user = new User();
