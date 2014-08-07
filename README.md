@@ -6,7 +6,7 @@ __Type:__ Commerce Web Portal
 
 __Author:__ Farhood Rashidi
 
-__Date:__ 06/1/2014- 09/01/2014
+__Date:__ 01/01/2014- 08/01/2014
 
 This website describes about african-american comuunity and immigrants.
 
