@@ -3,7 +3,8 @@
 /* Name: Commerce Web Portal/ Check Out Page
 *  Author: Farhood Rashidi
 *  Date: 07/22/2014
-*  This page defines and gets the user's first name, last name, credit card and expiration date and then displays the confirmation message or error message. 
+*  This page defines and gets the user's first name, last name, credit card and expiration date.
+*  Then displays the confirmation message or error message. 
 */
 	
 # ************************** #
