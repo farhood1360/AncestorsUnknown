@@ -23,29 +23,29 @@
 	
 class Checkout
 {
-		// Declare the attributes:
-		private $first_name = "";
-		private $last_name = "";
-		private $credit = "";
-		private $expiration = "";
-		private $photo = NULL;
+  // Declare the attributes:
+  private $first_name = "";
+  private $last_name = "";
+  private $credit = "";
+  private $expiration = "";
+  private $photo = NULL;
 		
-		// Constructor:
-		function __construct($fname, $lname, $c, $e, $p)
-		{
-			$this->first_name = $fname;
-			$this->last_name = $lname;
-			$this->credit = $c;
-			$this->expiration = $e;
-			$this->photo = $p;
-		}
+  // Constructor:
+  function __construct($fname, $lname, $c, $e, $p)
+  {
+	$this->first_name = $fname;
+	$this->last_name = $lname;
+	$this->credit = $c;
+	$this->expiration = $e;
+	$this->photo = $p;
+   }
 		
-		// Set a form method
-		public function set_form()
-		{
-			if(isset($_POST["info"]))
-			{
-				if(empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['credit']) || empty($_POST['expiration']) || $_FILES['photo']['error']>0 )
+   // Set a form method
+   public function set_form()
+   {
+	if(isset($_POST["info"]))
+	{
+	   if(empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['credit']) || empty($_POST['expiration']) || $_FILES['photo']['error']>0 )
 				{
 					$message = "<p>You must enter your first name, last name, credit card number and expiration date. Click the submit button for registration agian." . $_FILES['photo']['error'];
 				}
@@ -92,13 +92,13 @@ class Checkout
 					}
 					else
 					{
-						$message =  "Please enter the small image.";
-					}
-					fclose($CommerceList);
-				}
+		        	$message =  "Please enter the small image.";
 			}
-			return ($message);
-		}
+			fclose($CommerceList);
+	       	}
+	     }
+	return ($message);
+  }
 } // End of Checkout class.
 	
 # ********** END OF CLASSES ******* #
