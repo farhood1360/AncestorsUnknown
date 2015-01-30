@@ -1,1 +1,6 @@
-No error
+*.log
+*.cash
+.DS_Store
+*.txt
+!README.md
+!sitemap.xml
